@@ -5,3 +5,6 @@ const person = {
     isStudent: true,
     skills: ['JavaScript', 'HTML', 'CSS']
 };
+
+const message = `Hi, I'm ${person.name}.`;
+console.log(message);
