@@ -7,5 +7,5 @@ const person = {
 };
 
 person.nickname = 'Duke';
-const message = `Hi, I'm ${person.name}. I live in ${person.city}. Most know me as ${person.nickname}.`;
+const message = `Hi, I'm ${person.name}. I live in ${person.city}. Most know me as ${person.nickname}. Me age is ${person.age + 1}.`;
 console.log(message);
