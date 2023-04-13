@@ -6,3 +6,7 @@ const person = {
   isStudent: true,
   skills: ['JavaScript', 'HTML', 'CSS']
 };
+
+for (let property in person) {
+  console.log(property);
+}
